@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int n;
+    printf("Enter a number\n");
+    scanf("%d",&n);
+    if(n%5==0)
+    printf("%d is divisible by 5",n);
+    
+    return 0;
+}
